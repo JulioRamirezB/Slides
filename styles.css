@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
+
+
+header{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;    
+    color: white;
+    background-color: rgba(6, 6, 6, .7);
+    
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+header nav .header{
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid black; */
+    width: auto;
+}
+
+header nav .header li{
+    margin-right: 20px;
+    list-style: none;
+    color: gray;
+    /* border: 1px solid red; */
+}
+header nav .header li a{
+    text-decoration: none;
+    color: white;        
+}
+
+figure{
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+
+.logo .i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* -------------------Aqui termina el header---------------------------------- */
+.fotos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.fotos-land{
+    width: 750px;
+    height: 450px;
+    border: 2px solid grey;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* overflow: visible; */
+    /* overflow-x: scroll; */
+    /* flex-wrap: nowrap; */
+   
+    
+}
+
+.carrousel{
+    width: 750px;
+    height: 430px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+    /* overflow-x: scroll; */
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    /* border: 1px solid yellow; */
+    scroll-behavior: smooth;
+}
+.foto{
+    min-width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+    padding: 0 22%;
+    margin: 22px;
+    cursor: pointer;
+    vertical-align: top ;
+}
+/* .flecha-izquierda i,
+.flecha-derecha i{
+    padding: 10px;
+} */
+button{
+    padding: 0;
+    border: none;
+}
+
+
+.flecha-izquierda,
+.flecha-derecha{
+    width: 3%;
+    height: 100px;
+    font-size: 40px;
+    cursor: pointer;
+    /* border: 1px solid green; */
+    position: sticky;
+    display: flex;
+    align-items: center; 
+    /* top: 50%; 
+    bottom: 50%;   */
+    border: none;
+    display: none;
+}
+.flecha-izquierda{
+    left: 0;
+}
+.flecha-derecha{
+    right: 0;
+}
+.primer-foto{
+    margin-left: 0;
+}
+.ultima-foto{
+    margin-right: 0;
+}
+.flecha-izquierda:hover,
+.flecha-derecha:hover{
+    color: white;
+    background-color:rgba(0, 0, 0, .6);
+    /* border: none; */
+}
+.flecha-izquierda.activo,
+.flecha-derecha.activo{
+    border: none;
+}
+
+
+
+
+
+
+
+
+.pie{
+    width: 100%;
+    height: 20px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.pie button{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(128,128,128,.5);
+    color: rgba(128,128,128,.5);
+    font-size: 10px;
+    margin:0 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+}
+.pie button:hover,
+.pie button.activo{
+    background: rgba(0, 0, 0, .9);
+}
+
+
+/* -------------------Aqui empieza el footer---------------------------------- */
+footer{
+    width: 100%;
+    height: 20px;
+    padding: 10px 0 10px 0;
+    display:flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    /* border: 1px solid red; */
+}
+
+#Firma{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+#Firma i{
+    padding-left: 10px;
+}
