@@ -1,2 +1,2 @@
 # Slides
-Este es un archivo de imagenes inspirado estilo iOS.
+Este es un archivo de imágenes inspirado estilo iOS.
