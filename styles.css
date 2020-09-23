@@ -187,6 +187,13 @@ button{
         flex-direction: column;
         align-items: center;
     }
+    .logo{
+        opacity: 1;
+    }
+    .header{
+        opacity: 0;
+        position: absolute;
+    }
 }
 
 
