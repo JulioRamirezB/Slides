@@ -194,7 +194,10 @@ button{
         opacity: 0;
         position: absolute;
     }
-   
+   body{
+        margin: 5px;
+        padding: 5px;
+   }
 }
 
 
